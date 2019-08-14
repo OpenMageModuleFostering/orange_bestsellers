@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/orange_bestsellers",
+    "type": "magento-module",
+    "license": "Open-Software-License",
+    "homepage": "",
+    "description": "Display Bestsellers products",
+    "authors": [
+    {
+        "name": "Mage",
+        "email": "mage.ext@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

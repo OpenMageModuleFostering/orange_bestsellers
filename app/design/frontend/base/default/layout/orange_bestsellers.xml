@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+	<default>
+		<reference name="right">
+			<block type="catalog/product_send" name="orange_bestsellers" template="orange/bestsellers/bestsellers.phtml"/>
+		</reference>
+		<reference name="left">
+			<block type="catalog/product_send" name="orange_bestsellers" template="orange/bestsellers/bestsellers.phtml"/>
+		</reference>
+	</default>
+</layout>
