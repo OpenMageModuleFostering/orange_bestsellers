@@ -27,6 +27,7 @@ class Orange_Bestsellers_Model_Bestsellers extends Mage_Core_Model_Abstract
 		if($_limit < 1)
 			$_limit = 0;
 		$_productCollection = Mage::getResourceModel('reports/product_collection')
+			->addAttributeToFilter('visibility', array('neq' => 1))
 			->addAttributeToSelect('*')
 			->addOrderedQty()
 			->setOrder('ordered_qty','desc')
