@@ -1,4 +1,8 @@
 <?php
+/*
+author: SB
+support: mage.ext@gmail.com
+*/
 class Orange_Bestsellers_Model_Bestsellers extends Mage_Core_Model_Abstract
 {
 	function getStoreData($item)
@@ -20,6 +24,14 @@ class Orange_Bestsellers_Model_Bestsellers extends Mage_Core_Model_Abstract
 	public function addToCart()
 	{
 		return $this->getStoreData('addtocart');
+	}
+	public function wishlistLink()
+	{
+		return $this->getStoreData('wishlist_link');
+	}
+	public function compareLink()
+	{
+		return $this->getStoreData('compare_link');
 	}
 	public function data()
 	{

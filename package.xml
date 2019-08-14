@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>orange_bestsellers</name>
-    <version>0.1.1</version>
+    <version>0.1.2</version>
     <stability>stable</stability>
     <license>Open Software License</license>
     <channel>community</channel>
@@ -10,9 +10,9 @@
     <description>Magento Bestsellers module automatically generates the list of your online store's best selling products.</description>
     <notes>Stable release</notes>
     <authors><author><name>Mage</name><user>Dev</user><email>mage.ext@gmail.com</email></author></authors>
-    <date>2013-01-10</date>
-    <time>19:26:13</time>
-    <contents><target name="magecommunity"><dir name="Orange"><dir name="Bestsellers"><dir name="Model"><file name="Bestsellers.php" hash="83afd792fc032182362b55e123df324f"/></dir><dir name="etc"><file name="config.xml" hash="e656c0d60dbbdfc86ea68ac2338e746b"/><file name="system.xml" hash="8333ecc9a2c3f667e1dd01ed5ba86579"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="orange"><dir name="bestsellers"><file name="bestsellers.phtml" hash="04e80744562906390b3083c35f7d8a5c"/></dir></dir></dir><dir name="layout"><file name="orange_bestsellers.xml" hash="ae2cc5a442b6efae19627bab11746fc0"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Orange_Bestsellers.xml" hash="396d6d0b972577b89acf6c437a3e54e3"/></dir></target></contents>
+    <date>2013-01-15</date>
+    <time>19:10:12</time>
+    <contents><target name="magecommunity"><dir name="Orange"><dir name="Bestsellers"><dir name="Model"><file name="Bestsellers.php" hash="a7e1e9ad60b9b1ada7465e7b46eec239"/></dir><dir name="etc"><file name="config.xml" hash="2265a05057a2af8a4cc7ed9e8989b2ed"/><file name="system.xml" hash="0c2cf5f1c5784b20006d858800977175"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="orange"><dir name="bestsellers"><file name="bestsellers.phtml" hash="47b42031c78f1b0c4115c154491b8be9"/></dir></dir></dir><dir name="layout"><file name="orange_bestsellers.xml" hash="ae2cc5a442b6efae19627bab11746fc0"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Orange_Bestsellers.xml" hash="396d6d0b972577b89acf6c437a3e54e3"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
 </package>

@@ -2,7 +2,7 @@
 <config>
 	<modules>
 		<Orange_Bestsellers>
-			<version>0.1.0</version>
+			<version>0.1.2</version>
 		</Orange_Bestsellers>
 	</modules>
 	<frontend>
@@ -48,6 +48,8 @@
 				<block_title>Bestsellers</block_title>
 				<display_products>3</display_products>
 				<addtocart>1</addtocart>
+				<wishlist_link>1</wishlist_link>
+				<compare_link>1</compare_link>
 			</settings>
 		</orange_bestsellers>
 	</default>
